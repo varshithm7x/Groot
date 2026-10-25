@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=GROOT
+Comment=Local-first knowledge workspace with Forge
+Exec=groot %U
+Terminal=false
+Type=Application
+Icon=groot
+StartupWMClass=GROOT
+Categories=Office;Utility;
+MimeType=text/markdown;text/plain;

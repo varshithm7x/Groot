@@ -1,0 +1,32 @@
+{
+  "kind": "mocked inference; jsdom event loop; no application runtime",
+  "results": [
+    {
+      "count": 50,
+      "durationMs": 504.4772539999999,
+      "notesPerSecond": 99.11249635845823,
+      "indexingCalls": 51,
+      "duplicateCalls": 1,
+      "editedChunks": 2,
+      "maxMockEventLoopDelayMs": 22.128089000000045
+    },
+    {
+      "count": 500,
+      "durationMs": 4950.432881000001,
+      "notesPerSecond": 101.00126837776632,
+      "indexingCalls": 541,
+      "duplicateCalls": 1,
+      "editedChunks": 2,
+      "maxMockEventLoopDelayMs": 2.508303000000069
+    },
+    {
+      "count": 2000,
+      "durationMs": 19771.634295,
+      "notesPerSecond": 101.1550168367101,
+      "indexingCalls": 2191,
+      "duplicateCalls": 1,
+      "editedChunks": 2,
+      "maxMockEventLoopDelayMs": 2.455857000000833
+    }
+  ]
+}

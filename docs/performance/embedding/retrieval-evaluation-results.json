@@ -1,0 +1,29 @@
+{
+  "vault": "/home/varshith/VOLT/Engineers",
+  "totalVaultNotes": 585,
+  "datasetItems": 30,
+  "titleRetrieval": {
+    "recallAtAdaptive": 1,
+    "hitAt1": 0.9,
+    "hitAt3": 0.9666666666666667,
+    "hitAt5": 1,
+    "mrr": 0.9344444444444444,
+    "latencyMs": {
+      "median": 937.0977490000005,
+      "p95": 2162.429838,
+      "mean": 1242.9104208
+    }
+  },
+  "bodyRetrieval": {
+    "recallAtAdaptive": 0.8666666666666667,
+    "hitAt1": 0.7333333333333333,
+    "hitAt3": 0.8333333333333334,
+    "hitAt5": 0.8666666666666667,
+    "mrr": 0.7861111111111111,
+    "latencyMs": {
+      "median": 866.8319420000043,
+      "p95": 1276.7511719999966,
+      "mean": 914.9897652666676
+    }
+  }
+}

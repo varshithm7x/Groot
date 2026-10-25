@@ -1,0 +1,218 @@
+{
+  "description": "Fixed evaluation dataset separating title recall, body-content retrieval, and ranking quality",
+  "vault": "/home/varshith/VOLT/Engineers",
+  "itemCount": 30,
+  "createdAt": "2026-10-17T12:36:42.646Z",
+  "items": [
+    {
+      "id": 1,
+      "targetPath": "01-Foundations-and-Mathematics/05-combinatorics-and-counting.md",
+      "title": "05-combinatorics-and-counting",
+      "titleQuery": "What does 05 combinatorics and counting cover?",
+      "bodyQuery": "Every subset of an `n`-element set corresponds to an `n`-bit inclusion vector, so there are `2^n` subsets."
+    },
+    {
+      "id": 10,
+      "targetPath": "04-Programming/24-memory-management.md",
+      "title": "24-memory-management",
+      "titleQuery": "What does 24 memory management cover?",
+      "bodyQuery": "In languages with RAII, resource cleanup is tied to object lifetime."
+    },
+    {
+      "id": 19,
+      "targetPath": "07-Networking/38-dns-and-name-resolution.md",
+      "title": "38-dns-and-name-resolution",
+      "titleQuery": "What does 38 dns and name resolution cover?",
+      "bodyQuery": "TTL values control caching duration, subject to resolver behavior and policy."
+    },
+    {
+      "id": 28,
+      "targetPath": "Algorithms/Bit_Manipulation/Bit_Manipulation_Interview_Questions.md",
+      "title": "Bit_Manipulation_Interview_Questions",
+      "titleQuery": "What does Bit Manipulation Interview Questions cover?",
+      "bodyQuery": "*   *Hint:* Use the `&` operator with an inverted bitmask `(~(1 << n))`."
+    },
+    {
+      "id": 37,
+      "targetPath": "Algorithms/Graph_Algorithms/Graph_Algorithms_Implementation_Details.md",
+      "title": "Graph_Algorithms_Implementation_Details",
+      "titleQuery": "What does Graph Algorithms Implementation Details cover?",
+      "bodyQuery": "order = []\n    while queue:\n        vertex = queue.popleft()\n        order.append(vertex)"
+    },
+    {
+      "id": 46,
+      "targetPath": "Algorithms/Searching/Searching_Implementation_Details.md",
+      "title": "Searching_Implementation_Details",
+      "titleQuery": "What does Searching Implementation Details cover?",
+      "bodyQuery": "def jump_search(arr, target):\n    n = len(arr)\n    # Finding block size to be jumped\n    step = int(math.sqrt(n))"
+    },
+    {
+      "id": 55,
+      "targetPath": "Artificial_Intelligence/NLP/NLP_Implementation_Details.md",
+      "title": "NLP_Implementation_Details",
+      "titleQuery": "What does NLP Implementation Details cover?",
+      "bodyQuery": "result = classifier(\"I love natural language processing!\")\nprint(result) # [{'label': 'POSITIVE', 'score': 0.999}]\n```"
+    },
+    {
+      "id": 64,
+      "targetPath": "Artificial_Intelligence/Search_Algorithms/Search_Algorithms_Implementation_Details.md",
+      "title": "Search_Algorithms_Implementation_Details",
+      "titleQuery": "What does Search Algorithms Implementation Details cover?",
+      "bodyQuery": "while queue:\n        (node, path) = queue.popleft()\n        if node == goal:\n            return path"
+    },
+    {
+      "id": 73,
+      "targetPath": "Computer_Networks/Data_Link_Layer/Data_Link_Layer_Real_World_Use_Cases.md",
+      "title": "Data_Link_Layer_Real_World_Use_Cases",
+      "titleQuery": "What does Data Link Layer Real World Use Cases cover?",
+      "bodyQuery": "Switches learn MAC addresses and forward traffic efficiently, creating high-performance, collision-free local networks."
+    },
+    {
+      "id": 82,
+      "targetPath": "Computer_Networks/Network_Security/Network_Security_Real_World_Use_Cases.md",
+      "title": "Network_Security_Real_World_Use_Cases",
+      "titleQuery": "What does Network Security Real World Use Cases cover?",
+      "bodyQuery": "This involves using **firewalls**, **encryption at rest and in transit**, and regular **vulnerability scanning**."
+    },
+    {
+      "id": 91,
+      "targetPath": "Computer_Networks/Physical_Layer/Physical_Layer_Real_World_Use_Cases.md",
+      "title": "Physical_Layer_Real_World_Use_Cases",
+      "titleQuery": "What does Physical Layer Real World Use Cases cover?",
+      "bodyQuery": "It uses **FDM** to separate voice and data signals."
+    },
+    {
+      "id": 100,
+      "targetPath": "Computer_Networks/TCP_IP/TCP_IP_Implementation_Details.md",
+      "title": "TCP_IP_Implementation_Details",
+      "titleQuery": "What does TCP IP Implementation Details cover?",
+      "bodyQuery": "**Packet Arrival:** The NIC receives a frame, performs a CRC check, and copies it to kernel memory via DMA."
+    },
+    {
+      "id": 109,
+      "targetPath": "Computer_Organization/CPU_Architecture/CPU_Architecture_Implementation_Details.md",
+      "title": "CPU_Architecture_Implementation_Details",
+      "titleQuery": "What does CPU Architecture Implementation Details cover?",
+      "bodyQuery": "---\n*Note: This is a manually-generated study resource for CS Engineering students.*"
+    },
+    {
+      "id": 118,
+      "targetPath": "Computer_Organization/Memory_Hierarchy/Memory_Hierarchy_Interview_Questions.md",
+      "title": "Memory_Hierarchy_Interview_Questions",
+      "titleQuery": "What does Memory Hierarchy Interview Questions cover?",
+      "bodyQuery": "**Explain the concepts of Temporal and Spatial Locality of reference.**\n    *   *Hint:* Temporal: re-accessing same data."
+    },
+    {
+      "id": 127,
+      "targetPath": "Data_Structures/B_Trees/B_Trees_Advanced_Concepts.md",
+      "title": "B_Trees_Advanced_Concepts",
+      "titleQuery": "What does B Trees Advanced Concepts cover?",
+      "bodyQuery": "---\n*Note: This is a manually-generated study resource for CS Engineering students.*"
+    },
+    {
+      "id": 136,
+      "targetPath": "Data_Structures/Fenwick_Trees/Fenwick_Trees_Implementation_Details.md",
+      "title": "Fenwick_Trees_Implementation_Details",
+      "titleQuery": "What does Fenwick Trees Implementation Details cover?",
+      "bodyQuery": "**`query(BIT, 4)` (sum of arr[0...3]):**\n    -   s=0, idx=4: `s += BIT[4]` (which is 3) -> s=3."
+    },
+    {
+      "id": 145,
+      "targetPath": "Data_Structures/Heaps/Heaps_Implementation_Details.md",
+      "title": "Heaps_Implementation_Details",
+      "titleQuery": "What does Heaps Implementation Details cover?",
+      "bodyQuery": "min_val = heap[0]\n    heap[0] = heap[-1] # Move last element to root\n    heap.pop()         # Remove last element"
+    },
+    {
+      "id": 154,
+      "targetPath": "Data_Structures/Segment_Trees/Segment_Trees_Implementation_Details.md",
+      "title": "Segment_Trees_Implementation_Details",
+      "titleQuery": "What does Segment Trees Implementation Details cover?",
+      "bodyQuery": "---\n*Note: This is a manually-generated study resource for CS Engineering students.*"
+    },
+    {
+      "id": 163,
+      "targetPath": "Data_Structures/Tries/Tries_Implementation_Details.md",
+      "title": "Tries_Implementation_Details",
+      "titleQuery": "What does Tries Implementation Details cover?",
+      "bodyQuery": "---\n*Note: This is a manually-generated study resource for CS Engineering students.*"
+    },
+    {
+      "id": 172,
+      "targetPath": "Database_Systems/NoSQL/NoSQL_Real_World_Use_Cases.md",
+      "title": "NoSQL_Real_World_Use_Cases",
+      "titleQuery": "What does NoSQL Real World Use Cases cover?",
+      "bodyQuery": "*   **Caching User Profiles:** Key-value stores like Redis are used to cache frequently accessed user profile data for ultra-fast page loads."
+    },
+    {
+      "id": 181,
+      "targetPath": "Database_Systems/Recovery_Systems/Recovery_Systems_Advanced_Concepts.md",
+      "title": "Recovery_Systems_Advanced_Concepts",
+      "titleQuery": "What does Recovery Systems Advanced Concepts cover?",
+      "bodyQuery": "**Undo Pass:**\n    -   Scans the log backward from the end."
+    },
+    {
+      "id": 190,
+      "targetPath": "Database_Systems/Transaction_Management/Transaction_Management_Implementation_Details.md",
+      "title": "Transaction_Management_Implementation_Details",
+      "titleQuery": "What does Transaction Management Implementation Details cover?",
+      "bodyQuery": "**T1:** `COMMIT` (Shrinking phase, releases X-lock on A)\n7."
+    },
+    {
+      "id": 199,
+      "targetPath": "Distributed_Systems/Distributed_File_Systems/Distributed_File_Systems_Implementation_Details.md",
+      "title": "Distributed_File_Systems_Implementation_Details",
+      "titleQuery": "What does Distributed File Systems Implementation Details cover?",
+      "bodyQuery": "The Client asks the NameNode for permission and a list of DataNodes to store the first block."
+    },
+    {
+      "id": 208,
+      "targetPath": "Distributed_Systems/Gossip_Protocol/Gossip_Protocol_Overview.md",
+      "title": "Gossip_Protocol_Overview",
+      "titleQuery": "What does Gossip Protocol Overview cover?",
+      "bodyQuery": "In a cluster of thousands of nodes, how do you keep everyone updated on the health of other nodes or shared configuration changes?"
+    },
+    {
+      "id": 217,
+      "targetPath": "Distributed_Systems/Paxos_and_Raft/Paxos_and_Raft_Real_World_Use_Cases.md",
+      "title": "Paxos_and_Raft_Real_World_Use_Cases",
+      "titleQuery": "What does Paxos and Raft Real World Use Cases cover?",
+      "bodyQuery": "**HashiCorp Consul** is a tool for service discovery and configuration."
+    },
+    {
+      "id": 226,
+      "targetPath": "Operating_Systems/Deadlocks/Deadlocks_Overview.md",
+      "title": "Deadlocks_Overview",
+      "titleQuery": "What does Deadlocks Overview cover?",
+      "bodyQuery": "-   If there are several instances of a resource type, then a cycle *may or may not* indicate a deadlock."
+    },
+    {
+      "id": 235,
+      "targetPath": "Operating_Systems/Processes_Interview_Questions.md",
+      "title": "Processes_Interview_Questions",
+      "titleQuery": "What does Processes Interview Questions cover?",
+      "bodyQuery": "**Describe the different states a process can be in during its lifecycle.**\n    *   *Hint:* New, Ready, Running, Waiting (Blocked), Terminated."
+    },
+    {
+      "id": 244,
+      "targetPath": "Operating_Systems/Threads/Threads_Overview.md",
+      "title": "Threads_Overview",
+      "titleQuery": "What does Threads Overview cover?",
+      "bodyQuery": "-   **Disadvantages:**\n        -   Slower to create and manage (kernel involvement required)."
+    },
+    {
+      "id": 253,
+      "targetPath": "Software_Engineering/Design_Patterns/Design_Patterns_Interview_Questions.md",
+      "title": "Design_Patterns_Interview_Questions",
+      "titleQuery": "What does Design Patterns Interview Questions cover?",
+      "bodyQuery": "Why is it sometimes considered an \"anti-pattern\"?**\n    *   *Hint:* Only one instance, global access."
+    },
+    {
+      "id": 262,
+      "targetPath": "Software_Engineering/Software_Testing/Software_Testing_Interview_Questions.md",
+      "title": "Software_Testing_Interview_Questions",
+      "titleQuery": "What does Software Testing Interview Questions cover?",
+      "bodyQuery": "Why is it essential in an agile environment?**\n    *   *Hint:* Re-running tests after changes."
+    }
+  ]
+}
