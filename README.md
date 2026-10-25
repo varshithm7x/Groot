@@ -16,7 +16,7 @@ GROOT keeps existing vault data in the `.openonyx` folder for compatibility with
 Use Node.js 22 or newer.
 
 ```bash
-npm ci
+npm install
 npm run dev
 ```
 
